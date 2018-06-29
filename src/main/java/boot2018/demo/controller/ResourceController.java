@@ -13,7 +13,7 @@ public class ResourceController {
     public UserDTO execute() {
         UserDTO userDTO = new UserDTO();
         //编号
-        userDTO.setStudentId(11);
+        userDTO.setStudentId(55);
         //姓名
         userDTO.setUsernmae("zhangmin");
         return userDTO;

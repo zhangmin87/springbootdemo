@@ -9,13 +9,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 
 @Controller
-@RequestMapping("/source")
+    @RequestMapping("/source")
 public class HelloController {
 
     @RequestMapping(value = "/say",method = {RequestMethod.GET,RequestMethod.POST})
     public String hello(Model model) {
-        model.addAttribute("loginName","admin");
-        model.addAttribute("loginId","99");
+        model.addAttribute("loginName","admin888");
+        model.addAttribute("loginId","4848ddfefed");
         return "index";
     }
 //
