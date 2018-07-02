@@ -14,14 +14,16 @@ public class HelloController {
 
     @RequestMapping(value = "/say",method = {RequestMethod.GET,RequestMethod.POST})
     public String hello(Model model) {
-        model.addAttribute("loginName","admin888");
+        model.addAttribute("loginName","admin777");
         model.addAttribute("loginId","4848ddfefed");
         return "index";
     }
 //
-//    @RequestMapping(value = "/mock",method = {RequestMethod.GET,RequestMethod.POST})
-//    public String execte(Model model) {
-//        model.addAttribute("hello","hello,Spring Boot");
-//
-//    }
+    @RequestMapping(value = "/mock",method = {RequestMethod.GET,RequestMethod.POST})
+    public String execte(Model model) {
+        model.addAttribute("hello","hello,Spring Boot");
+
+
+        return null;
+    }
 }

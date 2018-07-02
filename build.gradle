@@ -38,6 +38,9 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
     //热部署,代码改为自动部署,不用重启,这样的好处就是这样的
     compile('org.springframework.boot:spring-boot-devtools:2.0.3.RELEASE')
+    //mq
+    compile "org.springframework.boot:spring-boot-starter-activemq"
+    compile "org.springframework:spring-jms"
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
 
