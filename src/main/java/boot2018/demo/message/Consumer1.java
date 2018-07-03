@@ -6,10 +6,10 @@ import org.springframework.jms.core.JmsMessagingTemplate;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Consumer {
+public class Consumer1 {
 
-    @JmsListener(destination = "mytest.queue")
+    @JmsListener(destination = "my-destination")
     public void receiveQueue(String text) {
-        System.out.println("consumer收到的报文为："+text);
+        System.out.println("consumer1收到的报文为："+text);
     }
 }
