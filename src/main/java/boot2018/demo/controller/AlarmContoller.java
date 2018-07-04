@@ -29,7 +29,7 @@ public class AlarmContoller {
 
         alarmStrList.add(devicename + "out fence01");
         alarmStrList.add(devicename + "out fence02");
-        alarmStrList.add(devicename + "out fence02");
+        alarmStrList.add(devicename + "out fence03");
         alarmStrList.add(devicename + "in fence01");
         alarmStrList.add(devicename + "in fence02");
 
