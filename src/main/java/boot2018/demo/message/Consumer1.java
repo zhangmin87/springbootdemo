@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Consumer1 {
 
-    @JmsListener(destination = "my-destination")
+    @JmsListener(destination = "mytest.queue")
     public void receiveQueue(String text) {
         System.out.println("consumer1收到的报文为："+text);
     }

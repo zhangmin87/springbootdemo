@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 
 @Controller
-    @RequestMapping("/source")
+@RequestMapping("/source")
 public class HelloController {
 
     @RequestMapping(value = "/say",method = {RequestMethod.GET,RequestMethod.POST})
@@ -22,7 +22,6 @@ public class HelloController {
     @RequestMapping(value = "/mock",method = {RequestMethod.GET,RequestMethod.POST})
     public String execte(Model model) {
         model.addAttribute("hello","hello,Spring Boot");
-
 
         return null;
     }
