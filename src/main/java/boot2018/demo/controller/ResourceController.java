@@ -18,6 +18,4 @@ public class ResourceController {
         userDTO.setUsernmae("zhangmin");
         return userDTO;
     }
-
-
 }
